@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    catalog: hotel_booking_catalog
+    schema: bronze
+    description: "Raw hotel booking data stored in the Bronze layer."
+
+    tables:
+      - name: RAW_HOTEL_BOOKINGS
+        description: "Original hotel booking records loaded from the source CSV."

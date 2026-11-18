@@ -17,6 +17,7 @@ venv/
 
 # Databricks credentials
 .databrickscfg
+.databricks/
 
 # dbt generated files
 **/target/
