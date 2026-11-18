@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_hotel_bookings
+    description: "Cleaned hotel booking records prepared for analytical consumption."
+
+  - name: quarantine_hotel_bookings
+    description: "Records failing data quality rules and excluded from downstream analytics models."

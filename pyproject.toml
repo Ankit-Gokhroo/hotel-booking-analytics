@@ -1,0 +1,9 @@
+[project]
+name = "hotel-booking-analytics"
+version = "0.1.0"
+description = "Hotel Booking Analytics Platform using Databricks and dbt"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "dbt-core",
+    "dbt-databricks",
+]
